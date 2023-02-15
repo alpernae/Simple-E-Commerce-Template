@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Sigmar+One&family=Single+Day&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222831;
+}
+
+
+/*__________________________________
+
+        HEADER  START
+_____________________________________*/
+
+header{
+    padding: 2rem 0;
+
+}
+.brandName{
+    margin: 1rem 0;
+    display: inline;
+    font-size: 32px;
+    color: whitesmoke;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: 700;
+
+}
+
+.nav{
+    display: inline;
+    padding: 0 15%;
+}   
+.container-1{
+    width: 350px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    display: inline;
+}
+
+.container-1 input#search{
+    width: 350px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+ .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+ .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+ }
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+
+ .container-1 .icon{
+    position: absolute;
+    top: 0%;
+    margin-left: 15px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+  }
+
+.member{
+    float: right;
+
+}
+
+.member button{
+    border-radius: 5px;
+    margin: 0 1rem;
+    padding: .5rem 2rem;
+    font-size: 18px;
+    font-family: 'Annie Use Your Telescope';
+    font-weight: 700;
+}
+
+.categ{
+    margin: 10% 0;
+}
+
+svg{
+    margin: 0 2rem;
+}
+.categ label{
+    color: white;
+    padding: .5rem 6rem;
+    font-family: cursive;
+}
+
+.categ label:hover{
+    background-color: #00ADB5;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.hr{
+    background: rgb(255, 255, 255);
+    height: 2px;
+}
+
+
+/*__________________________________
+
+        HEADER  END
+_____________________________________*/
+
+
+
+
+/*__________________________________
+
+        MAIN  START
+_____________________________________*/
+
+.mainSection{
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+   
+}
+
+.product{
+    background-color: #1e2229;
+    padding: 1rem 3rem;
+    margin: 3rem 6rem;
+}
+
+.product:hover{
+    box-shadow: 0px 0px 50px #2f3642;
+    transition: 1.2s;
+}
+
+.productInfo .productTitle{
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    padding: .8rem;
+    color: white;
+}
+
+.productInfo .productPrice{
+    font-size: 16px;
+    font-family: cursive;
+    float: right;
+    padding: .8rem;
+    color: white;
+}
+
+.productImg img{
+    width:  300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+/*__________________________________
+
+        MAIN    END
+_____________________________________*/
+
+.footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer-line{
+    margin-top: 10%;
+    margin-bottom: 1%;
+    background: rgb(255, 255, 255);
+    height: 2px;
+    
+}
+
+/*__________________________________
+
+        FOOTER    END
+_____________________________________*/
+
+.footer{
+    color: white;
+    padding: 5rem;
+}
+
+/*__________________________________
+
+        FOOTER   END
+_____________________________________*/
